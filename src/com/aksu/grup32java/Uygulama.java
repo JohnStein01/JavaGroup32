@@ -1,6 +1,7 @@
 package com.aksu.grup32java;
 
 import com.aksu.grup32java.ders3.Ders3;
+
 import java.util.Scanner;
 
 public class Uygulama {
@@ -15,6 +16,8 @@ public class Uygulama {
         int yas = scanner.nextInt();
         ders3.parametreliMethod(yas);
 
-    }
+        int geriDonenDeger=ders3.dogumYiliHesaplama(yas);
+        System.out.println(geriDonenDeger);
 
+    }
 }

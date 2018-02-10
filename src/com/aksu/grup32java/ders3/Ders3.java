@@ -15,4 +15,11 @@ public class Ders3 {
 
     }
 
+    public int dogumYiliHesaplama(int yas){
+        int mevcutYil=2018;
+        int dogumYılı=mevcutYil-yas;
+
+       return dogumYılı;
+    }
+
 }
