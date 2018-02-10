@@ -1,4 +1,4 @@
-package com.aksu.grup32java;
+package com.aksu.grup32java.ders3;
 
 import com.aksu.grup32java.ders3.Ders3;
 
